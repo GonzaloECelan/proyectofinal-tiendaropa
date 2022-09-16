@@ -1,0 +1,13 @@
+
+
+.itemlist{
+    /* display: flex;
+    flex-direction: row;
+    margin-left: 50px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-left: 90px;
+    margin-right: 50px;
+    
+}

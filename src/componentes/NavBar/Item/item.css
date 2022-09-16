@@ -1,0 +1,55 @@
+.tarjeta_producto{
+    margin-top: 50px;
+    width: 400px;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    box-shadow: 1px 5px 20px 5px rgba(0, 0, 0, 0.066);
+    cursor: pointer;
+   }
+.tarjeta_producto:hover{
+    box-shadow: 1px 5px 20px 5px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s ease;
+    opacity: 0.7;
+}
+.foto_prod{
+    width: 400px;
+    height: 430px;
+    background-color: black;
+    border-bottom: 5px solid rgb(217, 217, 217);
+    
+}
+
+.foto_prod img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacion .descrip{
+    width: 340px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+
+}
+
+.informacion .precio{
+    color: rgb(69, 69, 157);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.informacion .more{
+    margin-top: 5px;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+}
